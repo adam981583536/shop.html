@@ -10,10 +10,13 @@
 	height: auto;
 }
 .headimage {
-	position: inherit;
+	position:absolute;
+	background-image: url(file:///C|/Users/adam/newhtml/shop/images/headerbg.png);
+	width:1000px;
+	left:165px;
 }
 #head .search {
-	left: 298px;
+	left: 398px;
 	position: absolute;
 	top: 20px;/*元素通过left,top这些静态元素进行位置确定,但是如果不设置position则这些设置无效*/
 }
@@ -36,6 +39,7 @@
 	position: absolute;
 	left: 165px;
 	width: 1000px;
+	top:65px;
 }
 .ul li {
 	color: #FFF;

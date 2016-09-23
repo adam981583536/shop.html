@@ -24,7 +24,7 @@
 }
 .productone ul li {
 	color: #333;
-	padding-top: 4px;
+	padding-top: 6px;
 	font-size: 15px;
 }
 .listtwo li {
@@ -83,7 +83,66 @@
 	font-size: 13px;
 }
 .logtwo div:nth-child(2) {
-	border: #999;
-	border: dashed;
+	border:#666;
+	border: solid;
 	border-width: 0.3px;
+}
+.partthree{
+	position:absolute;
+	left:375px;
+	top:440px;
+	width:790px;
+}
+.partthree div{
+	display:inline-block;
+}
+.partthree h3{
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.partthree div:nth-child(2){
+	float:right;
+}
+.partthree div:nth-child(1){
+	height:30px;
+}
+.partthree ul li {
+	display:inline-block;
+	background-color:#CCC;
+	height:25px;
+	width:50px;
+	margin-left:10px;
+	text-align:center;
+    font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+}
+.partul{
+	float:right;
+}
+.partthreeimage{
+	position:absolute;
+	top:39px;
+	left:0px;
+}
+.partthree div:nth-child(3){
+	border:solid;
+	border-width:1px;
+	border-color:#CCC;
+}
+.partthree div:nth-child(3) a{
+	margin-left:10px;
+}
+.partthreetext {
+	position:absolute;
+	top:618px;
+	left:365px;
+}
+.partthreetext ul li{
+	display:inline-block;
+	text-align:center;
+	margin:9px;
+	width:180px;
+	background-color:#CCC;
+	opacity:0.7;
 }
