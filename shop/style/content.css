@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.product{
+	position:absolute;
+	left:15px;
+	top:100px;
+	border:#999;
+	border:solid;
+	border-width:1px;
+	width:200px;
+}
+#F4{
+	color:#FFF;
+	background-color:#039;
+}
+.listtwo{
+	display:inline-block;
+}
+.listone ul:nth-child(2){
+	float:right;
+	width:100px;
+	}
+.listone ul:nth-child(1){
+
+	}
+.productone ul li{
+	color:#333;
+	padding-top:4px;
+	font-size:15px;
+	}
+.listtwo li {
+	padding-left:14px;
+}
+.listthree li {
+	padding-right:10px;
+}
+.title{
+	font-size:14px;
+	font-family:"Times New Roman", Times, serif;
+	padding-left:10px;
+	padding-top:4px;
+}
+.myhr{
+	padding-left:14px;
+	padding-top:4px;
+}
