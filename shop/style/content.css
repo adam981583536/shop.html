@@ -44,3 +44,29 @@
 	padding-left:14px;
 	padding-top:4px;
 }
+.advertisement{
+	width: 550px;
+	height: 320px;
+	position: absolute;
+	left: 225px;
+	top: 103px;
+	overflow: hidden;
+	background-color: #333;
+}
+.advertisementtext{
+	width: 550px;
+	position: absolute;
+	left: 0px;
+	top: 270px;
+	height: 84px;
+}
+.ultext li{
+	opacity:0.7;
+	background-color:#000000;
+	color:#FFC;
+	height:45px;
+	width:108px;
+	margin:-1px;
+    display:inline-block; margin-top:5px; overflow:hidden;
+	text-align:center;
+}
