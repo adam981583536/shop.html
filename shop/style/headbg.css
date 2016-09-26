@@ -33,7 +33,6 @@
 }
 .ul {
 	height: 30px;
-	background-color: #039;
 }
 .movehead {
 	position: absolute;
@@ -42,7 +41,7 @@
 	top:65px;
 }
 .ul li {
-	color: #FFF;
+	
 }
 .ul li {
 	margin-left: 25px;
