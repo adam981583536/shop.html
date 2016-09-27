@@ -1,13 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+}
+$("*"){
 }
 #head {
 	background-image: url(file:///C|/Users/adam/newhtml/shop/images/headerbg.png);
 	width: auto;
 	height: auto;
+	z-index:99px;
 }
 .headimage {
 	position:absolute;
@@ -31,23 +34,12 @@
 #inputSearch.focus {
 	border: 1px solid #00A5FF;
 }
-.ul {
-	height: 30px;
-}
 .movehead {
 	position: absolute;
-	left: 165px;
+	left: -846px;
 	width: 1000px;
-	top:65px;
-}
-.ul li {
-	
-}
-.ul li {
-	margin-left: 25px;
-	display: inline;
-	margin-top: 5px;
-	overflow: hidden;
+	top:50px;
+	height:35px;
 }
 ul li {
 	list-style: none;
@@ -103,4 +95,25 @@ ul li {
 }
 #skin_5.selected {
 	background-position: 95px 15px;
+}
+.divbrand{
+    position:absolute;
+	left :-780px;
+	top:73px;
+	background-color:#FFF;
+			z-index:9999;
+	}
+.brandone li{
+	display:inline-block;
+	height:40px;
+	margin-top:15px;
+	margin-left:8px;
+}
+.myul li {
+	margin-left: 25px;
+	display: inline;
+	margin-top: 15px;
+	overflow: hidden;
+	color:#FFF;
+	padding-bottom:10px;
 }
