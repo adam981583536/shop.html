@@ -7,7 +7,7 @@ $(function(){
 	 var cookie_skin = $.cookie("MyCssSkin");
 	 if(cookie_skin)
 	 {
-		switchSkib(cookie_skin);
+		switchSkin(cookie_skin);
 	 }
 })
 function switchSkin(skinName){
