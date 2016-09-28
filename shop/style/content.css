@@ -124,6 +124,14 @@
 	position:absolute;
 	top:39px;
 	left:0px;
+	overflow:hidden;
+		width:790px;
+	height:168px;
+}
+.partthreeimage div{
+	position:absolute;
+		width:3160px;
+	height:400px;
 }
 .partthree div:nth-child(3){
 	border:solid;
@@ -146,3 +154,20 @@
 	background-color:#CCC;
 	opacity:0.7;
 }
+.hehe ul li a:link {color: red}               /* 未被访问的链接*/
+.hehe ul li a:visited {color: blue}            /* 已被访问过的链接*/ 
+.hehe ul li a:hover {color: yellow}            /* 鼠标悬浮在上的链接*/   /* 鼠标点中激活链接*/
+.hehe ul li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}
+a:active {color: blue}
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:1px;
+	color:#333;
+	display:none;
+	font-size:12px;
+	}
