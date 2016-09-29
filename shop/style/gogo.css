@@ -1,3 +1,66 @@
 @charset "utf-8";
 /* CSS Document */
-
+#detaildiv{
+	position:absolute;
+	left:375px;
+	top:110px;
+}
+#smallImage ul {
+	height:80px;
+}
+#smallImage ul li {
+	float:left;
+	margin-left:10px;
+}
+#smallImage ul li img{
+	width:90px;
+	height:65xo;
+	padding:1px;
+	background-color:#EEE;
+	cursor:pointer;
+}
+#imageText{
+	text-align:center;
+	position:relative;
+	}
+#imageText img{
+	margin:8px;
+	}
+#detailImage{
+	border:1px solid #BBBBBB;
+	cursor:pointer;
+	float:left;
+	padding:0;
+	position:relative;
+}
+#productIntroduce{
+	position:absolute;
+	top:580px;
+	left:390px;
+	}
+#tab_menu {
+	width:300px;
+		}
+#tab_menu ul li {
+	display:inline-block;
+	background-color:#CCC;
+	text-align:center;
+	width:88px;
+	margin-right:8px;
+}
+#tab_menu ul li.selected{
+	color:#FFF;
+	background-color:#6D84B4;
+}
+#tab_menu ul li:hover{
+	background-color:#DFDFDF;
+}
+.tab_box{
+	width:450px;
+	height:30px;
+}
+.tab_box div{
+	border-color:#898989;
+	border:solid;
+	border-width:1px;
+	}
